@@ -16,10 +16,10 @@
                         </ul>
                     </div>
                     <div class="icon-container">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-lg fa-brands fa-twitter"></i>
+                        <i class="fa-lg fa-brands fa-linkedin-in"></i>
+                        <i class="fa-lg fa-brands fa-facebook"></i>
+                        <i class="fa-lg fa-brands fa-instagram"></i>
                     </div>
                 </div>
             </div>

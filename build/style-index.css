@@ -117,6 +117,8 @@ li {
 .top-bit {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #DCDCDC;
+  height: 87px;
 }
 
 .container {
@@ -135,6 +137,13 @@ li {
   flex-direction: row;
   align-items: center;  /* Adjust items along the cross-axis (vertical centering in this case) */
   gap: 20px;  /* Optional: Add some spacing between the .links and .icon-container */
+  margin-right: 125px;
+}
+
+.links {
+  position: relative;
+  top: 12px;
+  font-weight: bold;
 }
 
 .links ul {
@@ -149,16 +158,11 @@ li {
   gap: 10px;
 }
 
-
-
-.top-bit {
-  background-color: #DCDCDC;
-}
-
 .container img {
   border: solid;
   border-radius: 50%;
   color: #3531F5;
+  margin-left: 2.8125rem;
 }
 
 /* .hp-logo {
