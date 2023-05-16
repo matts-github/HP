@@ -4,10 +4,10 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 a {
   color: #0d3b66;
 }
@@ -28,6 +28,7 @@ li {
   margin: 0 auto;
   padding: 0 16px;
   position: relative;
+  height: 92px;
 }
 .container--narrow {
   max-width: 960px;
@@ -50,9 +51,124 @@ li {
 .p-top-large {
   padding-top: 1.6rem;
 }
+
+.my-logo{
+  width: 50px;
+}
+
 .p-bottom-large {
   padding-bottom: 1.6rem;
 }
+
+/* Header */
+
+.container {
+  background-color: #DCDCDC;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+}
+
+/* .my-logo {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.icon-container {
+  grid-column: 2;
+  justify-self: end;
+  display: flex;
+  gap: 10px;
+} */
+
+/* .top-bit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  display: contents;
+}
+
+.my-logo {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.end-container {
+  grid-column: 2;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.icon-container {
+  display: flex;
+  gap: 10px;
+} */
+
+.top-bit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  display: contents;
+}
+
+.my-logo {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.end-container {
+  grid-column: 2;
+  justify-self: end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  /* Adjust items along the cross-axis (vertical centering in this case) */
+  gap: 20px;  /* Optional: Add some spacing between the .links and .icon-container */
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;  /* Optional: Display the list items in a row */
+  gap: 10px;  /* Optional: Add some spacing between the list items */
+}
+
+.icon-container {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.top-bit {
+  background-color: #DCDCDC;
+}
+
+.container img {
+  border: solid;
+  border-radius: 50%;
+  color: #3531F5;
+}
+
+/* .hp-logo {
+  width: 50px;
+  border: solid;
+  margin-left: 0;
+} */
+
+
+
 @media (min-width: 530px) {
   .p-top-large {
     padding-top: 3.5rem;

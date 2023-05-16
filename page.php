@@ -4,9 +4,11 @@
 
     while(have_posts()) {
         the_post(); ?>
-        <h1>This is a page not a post</h1>
-        <h2><?php the_title(); ?></h2>
-        <?php the_content(); ?>
+        <h1>Static Content to be hollowed out. Underneath this I will do the hollowed out title.</h1>
+        <h1><?php the_title(); ?></h1>
+        <div class="generic content">
+            <?php the_content(); ?>
+        </div>
     <?php }
 
     get_footer();
